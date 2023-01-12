@@ -99,5 +99,9 @@ select {
     transform:rotate(-5deg);
     z-index: -1; 
 }
-button:hover {cursor:pointer;}
+button:hover {
+    cursor:pointer;}
+a:hover {
+    text-decoration: underline;}
+    #land:hover {text-decoration: none;}
 
