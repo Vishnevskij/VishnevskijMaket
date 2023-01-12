@@ -1,0 +1,103 @@
+body {
+    background:linear-gradient(45deg, rgb(77, 77, 156), rgb(153, 209, 245));
+display:flex;
+flex-direction: column;
+align-items: center;
+margin:0;
+padding:0;
+width:100vw;
+height:100vh;
+overflow: hidden;;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+margin-top:30px;
+width:700px;}
+nav {
+    display:flex;
+gap:20px;
+align-items: center;}
+button {
+    border:1px solid white;
+    background:transparent;
+    color:white;
+padding:8px;
+border-radius: 5px;
+width:120px;}
+a {
+    color:white;
+text-decoration: none;}
+h1, p {
+    color:white;}
+main {
+    width:650px;
+margin:150px auto;}
+    main div {
+        width:325px;
+    margin-top:40px;}
+.green {border-radius:25px;
+background:green;
+border:none;
+}
+form {
+     display:flex;
+     flex-direction: column;
+     background-color: white;
+     border-radius:2px;
+     width:275px;
+     height:290px;
+     align-items: center;
+     padding:5px;
+     margin:10px;
+    box-shadow: -5px 5px 20px -1.5px;
+margin-left:50px;
+animation:povorot 4s infinite;}
+@keyframes povorot {
+    from 0% {transform:rotate(0deg)}
+    25% {transform:rotate(45deg)}
+    50% {transform:rotate(0deg)}
+    75%{transform:rotate(-45deg)}
+    to 100% {transform:rotate(0deg)}
+}
+section {
+    display: flex;
+    align-items: center;}
+input, select {
+    background-color: rgb(201, 201, 201);
+    margin:5px;
+padding:5px;
+border:none;
+border-radius: 2px;
+outline:none;
+width:200px;
+}
+h1 {
+    font-size:40px;
+    font-weight: 30;
+}
+p {
+    margin-top:-20px;
+    font-size:18px;}
+select {
+    width:210px;}
+.blue {
+    background-color: lightskyblue;
+    width:215px;
+    border-radius: 20px;
+    margin-top:7px;
+    padding:8px;
+    margin-bottom:50px;}
+.background {
+    width: 150vw;
+    height:100vh;
+    position:absolute;
+    left:-30%;
+    top:-22%;
+    background:linear-gradient(45deg, rgb(66, 66, 133), rgb(157, 212, 247));
+    transform:rotate(-5deg);
+    z-index: -1; 
+}
+button:hover {cursor:pointer;}
+
